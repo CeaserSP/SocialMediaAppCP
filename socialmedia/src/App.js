@@ -8,7 +8,7 @@ import Login from './Login';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/secret">Secret</Link></li>
